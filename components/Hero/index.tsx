@@ -16,7 +16,7 @@ const Hero = () => {
           <div
           >
             {/* <!-- Slider main container --> */}
-            <div className="swiper testimonial-01 mb-20 pb-22.5">
+            <div className="swiper testimonial-01">
               {/* <!-- Additional required wrapper --> */}
               <Swiper
                 navigation={true}

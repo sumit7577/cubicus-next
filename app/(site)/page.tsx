@@ -12,6 +12,7 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import Service from "@/components/Service";
 
 export const metadata: Metadata = {
   title: "Cubicus Technology",
@@ -23,9 +24,11 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      {/*<Brands />
-      <Feature />
+      <Brands />
       <About />
+      <Service />
+      {/*<Feature />
+
       <FeaturesTab />
       <FunFact />
       <Integration />
